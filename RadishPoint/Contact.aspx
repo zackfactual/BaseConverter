@@ -2,10 +2,10 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2><%: Title %></h2>
-    <h3>Your contact page.</h3>
+    <h3>Feedback:</h3>
     <ul>
-        <li><a></a></li>
-        <li><a></a></li>
-        <li><a></a></li>
+        <li><a href="https://www.linkedin.com/in/zachary-velcoff/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="LinkedIn">LinkedIn</a></li>
+        <li><a href="https://github.com/zackfactual" target="_blank" data-toggle="tooltip" data-placement="bottom" title="GitHub">GitHub</a></li>
+        <li><a href="mailto:zackfactual@gmail.com" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Email">Email</a></li>
     </ul>
 </asp:Content>

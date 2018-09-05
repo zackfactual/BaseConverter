@@ -13,24 +13,6 @@ namespace RadishPoint {
     public partial class _Default {
         
         /// <summary>
-        /// converterPageButton control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button converterPageButton;
-        
-        /// <summary>
-        /// calculatorPageButton control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button calculatorPageButton;
-        
-        /// <summary>
         /// originDropDownList control.
         /// </summary>
         /// <remarks>

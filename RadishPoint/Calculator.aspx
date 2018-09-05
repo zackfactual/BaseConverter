@@ -2,8 +2,6 @@
 
 <asp:content id="calculatorContent" ContentPlaceHolderID="MainContent" runat="server">
     <div>
-        <asp:Button ID="converterButton" PostBackUrl="~/Default.aspx" runat="server" Text="Converter" />
-        <asp:Button Enabled="false" ID="calculatorButton" PostBackUrl="~/Calculator.aspx" runat="server" Text="Calculator" /><br /><br />
         <p>Select first number&#39;s numeral system:
             <asp:DropDownList ID="num1DropDownList" runat="server">
             <asp:ListItem Value="1" Text="Base 1 (Unary)"></asp:ListItem>
