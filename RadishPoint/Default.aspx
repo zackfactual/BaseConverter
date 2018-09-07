@@ -2,7 +2,7 @@
 
 <asp:content id="defaultContent" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container-fluid">
-        <p>Select the numeral system from which you wish to convert:
+        <p>Origin numeral system:
             <asp:DropDownList ID="originDropDownList" runat="server">
                 <asp:ListItem Value="1" Text="Base 1 (Unary)"></asp:ListItem>
                 <asp:ListItem Value="2" Text="Base 2 (Binary)"></asp:ListItem>
@@ -108,12 +108,11 @@
             </asp:DropDownList>
         </p>
         
-        <p>Enter the # you wish to convert:
+        <p>Number to convert:
             <asp:TextBox ID="inputTextBox" runat="server"></asp:TextBox>
         </p>
         
-        
-        <p>Select the numeral system to which you wish to convert:
+        <p>Target numeral system:
             <asp:DropDownList ID="targetDropDownList" runat="server">
                 <asp:ListItem Value="1" Text="Base 1 (Unary)"></asp:ListItem>
                 <asp:ListItem Selected="True" Value="2" Text="Base 2 (Binary)"></asp:ListItem>
@@ -222,8 +221,8 @@
         <asp:Button ID="convertButton" runat="server" Text="Convert" OnClick="convertButton_Click" />
         
         <asp:Label ID="resultLabel" runat="server"></asp:Label>
-        <p class="text-danger">*Results are precise up to 324 fractional digits!</p>
-        <p class="text-danger">*Letters are case-sensitive!</p>
+        <p class="text-danger">*Results precise up to 324 fractional digits</p>
+        <p class="text-danger">*Warning: letters are case-sensitive (A=10, a=36)</p>
 
         <asp:Table ID="keyTable" runat="server" BorderColor="Black" BorderStyle="Solid" Caption="&lt;strong&gt;Character Key&lt;/strong&gt;" GridLines="Both" HorizontalAlign="Left">
             <asp:TableRow runat="server">

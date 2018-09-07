@@ -2,7 +2,7 @@
 
 <asp:content id="calculatorContent" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container-fluid">
-        <p>Select first number&#39;s numeral system:
+        <p>First numeral system:
             <asp:DropDownList ID="num1DropDownList" runat="server">
                 <asp:ListItem Value="1" Text="Base 1 (Unary)"></asp:ListItem>
                 <asp:ListItem Selected="True" Value="2" Text="Base 2 (Binary)"></asp:ListItem>
@@ -107,7 +107,7 @@
                 <asp:ListItem Value="101" Text="Base 101 (Uncentesimal)"></asp:ListItem>
             </asp:DropDownList>  
         </p>
-        <p>Select second number&#39;s numeral system:
+        <p>Second numeral system:
             <asp:DropDownList ID="num2DropDownList" runat="server">
                 <asp:ListItem Value="1" Text="Base 1 (Unary)"></asp:ListItem>
                 <asp:ListItem Selected="True" Value="2" Text="Base 2 (Binary)"></asp:ListItem>
@@ -213,7 +213,7 @@
             </asp:DropDownList>
         </p>
 
-        <p>Select target numeral system:
+        <p>Target numeral system:
             <asp:DropDownList ID="targetDropDownList" runat="server">
                 <asp:ListItem Value="1" Text="Base 1 (Unary)"></asp:ListItem>
                 <asp:ListItem Selected="True" Value="2" Text="Base 2 (Binary)"></asp:ListItem>
@@ -319,24 +319,21 @@
             </asp:DropDownList>
         </p>
         
-        First number:
-        <asp:TextBox ID="num1TextBox" runat="server"></asp:TextBox>
-        
-        
-        <asp:RadioButton ID="additionRadioButton" runat="server" Checked="True" GroupName="mathGroup" Text="+" />
-        <asp:RadioButton ID="subtractionRadioButton" runat="server" GroupName="mathGroup" Text="-" />
-        <asp:RadioButton ID="multiplicationRadioButton" runat="server" GroupName="mathGroup" Text="*" />
-        <asp:RadioButton ID="divisionRadioButton" runat="server" GroupName="mathGroup" Text="/" />
-        
-        Second number:
-        <asp:TextBox ID="num2TextBox" runat="server" Width="127px"></asp:TextBox>
-        
-        <asp:Button ID="equalsButton" runat="server" Text="=" OnClick="equalsButton_Click" />
+        <p>1st number:
+            <asp:TextBox ID="num1TextBox" runat="server"></asp:TextBox>
+            <asp:RadioButton ID="additionRadioButton" runat="server" Checked="True" GroupName="mathGroup" Text="+" />
+            <asp:RadioButton ID="subtractionRadioButton" runat="server" GroupName="mathGroup" Text="-" />
+            <asp:RadioButton ID="multiplicationRadioButton" runat="server" GroupName="mathGroup" Text="*" />
+            <asp:RadioButton ID="divisionRadioButton" runat="server" GroupName="mathGroup" Text="/" />
+        2nd number: 
+            <asp:TextBox ID="num2TextBox" runat="server" Width="127px"></asp:TextBox>
+        </p>
+        <asp:Button ID="equalsButton" runat="server" Text="Equals" OnClick="equalsButton_Click" />
         
         <asp:Label ID="calculationLabel" runat="server"></asp:Label>
 
-        <p class="text-danger">*Results are precise up to 324 fractional digits!</p>
-        <p class="text-danger">*Letters are case-sensitive!</p>
+        <p class="text-danger">*Results precise up to 324 fractional digits</p>
+        <p class="text-danger">*Warning: letters are case-sensitive (A=10, a=36)</p>
 
         <asp:Table ID="keyTable" runat="server" BorderColor="Black" BorderStyle="Solid" Caption="&lt;strong&gt;Character Key&lt;/strong&gt;" GridLines="Both" HorizontalAlign="Left">
             <asp:TableRow runat="server">

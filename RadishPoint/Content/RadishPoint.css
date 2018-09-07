@@ -1,3 +1,35 @@
 ﻿body {
     
 }
+
+#navbar-radish {
+    background-color: #3A5F0B;
+}
+
+#navbar-radish a {
+    color: #fff;
+    font-weight: bold;
+}
+
+#navbar-radish a:hover {
+    color: #BB1F44;
+}
+
+.container-fluid p:first-child {
+    margin-top: 10px;
+}
+
+#MainContent_resultLabel, #MainContent_calculationLabel {
+    display: block;
+    margin: 10px auto 5px auto;
+    border: 2px solid #3A5F0B;
+    background-color: #BB1F44;
+    color: #fff;
+    padding: 2px;
+    min-height: 28px;
+    font-weight: bold;
+}
+
+.text-danger {
+    margin: 0px auto;
+}
