@@ -1,8 +1,4 @@
-﻿body {
-    
-}
-
-#navbar-radish {
+﻿#navbar-radish {
     background-color: #3A5F0B;
 }
 
@@ -19,7 +15,14 @@
     margin-top: 10px;
 }
 
-#MainContent_resultLabel, #MainContent_calculationLabel {
+#MainContent_targetDropDownList, 
+#MainContent_num1TextBox, 
+#MainContent_num2TextBox {
+    display: block;
+}
+
+#MainContent_resultLabel, 
+#MainContent_calculationLabel {
     display: block;
     margin: 10px auto 5px auto;
     border: 2px solid #3A5F0B;
@@ -32,4 +35,22 @@
 
 .text-danger {
     margin: 0px auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #3A5F0B;
+    justify-content: center;
+    padding: 10px;
+}
+
+.flex-container > div {
+    background-color: #BB1F44;
+    width: 90px;
+    margin: 10px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    color: #fff;
 }

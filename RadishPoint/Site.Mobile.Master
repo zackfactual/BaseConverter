@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width" />
     <title></title>
     <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+    <asp:ContentPlaceHolder ID="Stylesheets" runat="server">
+        <link rel="stylesheet" href="Content/RadishPoint.css" type="text/css"/>
+    </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">

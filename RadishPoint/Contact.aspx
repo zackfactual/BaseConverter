@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="RadishPoint.Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h2><%: Title %></h2>
-    <h3>Feedback:</h3>
+    <h1><%: Title %></h1>
+    <h2>Feedback:</h2>
     <ul>
         <li><a href="https://www.linkedin.com/in/zachary-velcoff/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="LinkedIn">LinkedIn</a></li>
         <li><a href="https://github.com/zackfactual" target="_blank" data-toggle="tooltip" data-placement="bottom" title="GitHub">GitHub</a></li>
