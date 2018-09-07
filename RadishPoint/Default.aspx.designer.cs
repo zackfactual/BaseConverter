@@ -22,15 +22,6 @@ namespace RadishPoint {
         protected global::System.Web.UI.WebControls.DropDownList originDropDownList;
         
         /// <summary>
-        /// inputTextBox control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox inputTextBox;
-        
-        /// <summary>
         /// targetDropDownList control.
         /// </summary>
         /// <remarks>
@@ -38,6 +29,15 @@ namespace RadishPoint {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList targetDropDownList;
+        
+        /// <summary>
+        /// inputTextBox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox inputTextBox;
         
         /// <summary>
         /// convertButton control.

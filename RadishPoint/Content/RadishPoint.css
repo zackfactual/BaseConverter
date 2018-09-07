@@ -1,18 +1,31 @@
-﻿#navbar-radish {
-    background-color: #3A5F0B;
+﻿p {
+    margin: 0px;
+}
+
+h2 {
+    margin: 10px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+#navbar-radish {
+    background-color: #7BC143;
+    border-color: #fff;
 }
 
 #navbar-radish a {
-    color: #fff;
+    color: #FFF2F2;
     font-weight: bold;
 }
 
 #navbar-radish a:hover {
-    color: #BB1F44;
-}
-
-.container-fluid p:first-child {
-    margin-top: 10px;
+    color: #D74747;
 }
 
 #MainContent_targetDropDownList, 
@@ -24,33 +37,38 @@
 #MainContent_resultLabel, 
 #MainContent_calculationLabel {
     display: block;
-    margin: 10px auto 5px auto;
-    border: 2px solid #3A5F0B;
-    background-color: #BB1F44;
-    color: #fff;
+    border: 2px solid #7BC143;
+    background-color: #D74747;
+    color: #FFF2F2;
     padding: 2px;
     min-height: 28px;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
-.text-danger {
-    margin: 0px auto;
+#MainContent_convertButton, #MainContent_equalsButton {
+    display: block;
+    margin: 10px;
 }
 
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    background-color: #3A5F0B;
+    background-color: #7BC143;
     justify-content: center;
     padding: 10px;
 }
 
 .flex-container > div {
-    background-color: #BB1F44;
+    background-color: #D74747;
     width: 90px;
     margin: 10px;
     text-align: center;
     line-height: 30px;
     font-size: 20px;
-    color: #fff;
+    color: #FFF2F2;
+}
+
+input[type="radio"] {
+    margin: 25px 0px 0px 10px;
 }
