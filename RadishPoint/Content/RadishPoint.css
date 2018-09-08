@@ -42,6 +42,7 @@ h3 {
     min-height: 28px;
     font-weight: bold;
     margin-bottom: 10px;
+    word-wrap: break-word;
 }
 
 #MainContent_convertButton, #MainContent_equalsButton {
