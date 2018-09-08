@@ -331,7 +331,7 @@
         <asp:Label ID="calculationLabel" runat="server" Text="Results..."></asp:Label>
 
         <p class="text-danger">*Results precise up to 324 fractional digits</p>
-        <p class="text-danger">*Letters are case-sensitive (A = 10, a = 36)</p>
+        <p class="text-danger">*Letters case-sensitive (A = 10, a = 36)</p>
         
         <h3>Character Key</h3>
         <div class="flex-container">
