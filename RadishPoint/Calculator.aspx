@@ -328,7 +328,7 @@
         
         <asp:Button ID="equalsButton" runat="server" Text="Equals" CssClass="btn btn-primary" OnClick="equalsButton_Click" />
         
-        <asp:Label ID="calculationLabel" runat="server"></asp:Label>
+        <asp:Label ID="calculationLabel" runat="server" Text="Results..."></asp:Label>
 
         <p class="text-danger">*Results precise up to 324 fractional digits</p>
         <p class="text-danger">*Letters are case-sensitive (A = 10, a = 36)</p>

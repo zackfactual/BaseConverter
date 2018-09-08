@@ -217,7 +217,7 @@
 
         <asp:Button ID="convertButton" runat="server" Text="Convert" CssClass="btn btn-primary" OnClick="convertButton_Click" />
 
-        <asp:Label ID="resultLabel" runat="server"></asp:Label>
+        <asp:Label ID="resultLabel" runat="server" Text="Results..."></asp:Label>
         <p class="text-danger">*Results precise up to 324 fractional digits</p>
         <p class="text-danger">*Letters are case-sensitive (A = 10, a = 36)</p>
 
