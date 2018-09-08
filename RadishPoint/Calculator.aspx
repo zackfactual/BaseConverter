@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Cross-Numeral System Converter" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Calculator.aspx.cs" Inherits="RadishPoint.Calculator" %>
+﻿<%@ Page Title="Cross-Numeral System Calculator | Radish Point" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Calculator.aspx.cs" Inherits="RadishPoint.Calculator" %>
 
 <asp:content id="calculatorContent" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container-fluid">

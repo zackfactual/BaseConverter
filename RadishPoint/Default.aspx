@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Numeral System Converter" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="RadishPoint._Default" %>
+﻿<%@ Page Title="Base Converter | Radish Point" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="RadishPoint._Default" %>
 
 <asp:content id="defaultContent" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container-fluid">
