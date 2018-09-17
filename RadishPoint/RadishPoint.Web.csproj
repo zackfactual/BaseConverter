@@ -139,6 +139,13 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\radishx.svg" />
+    <Content Include="Content\Images\radishx_1024.png" />
+    <Content Include="Content\Images\radishx_128.png" />
+    <Content Include="Content\Images\radishx_256.png" />
+    <Content Include="Content\Images\radishx_32.png" />
+    <Content Include="Content\Images\radishx_512.png" />
+    <Content Include="Content\Images\radishx_64.png" />
     <Content Include="Content\RadishPoint.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />

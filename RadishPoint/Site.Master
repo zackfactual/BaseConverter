@@ -48,13 +48,13 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">Radish Point</a>
+                    <a runat="server" href="~/"><img src="Content/Images/radishx_64.png"/></a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/">Converter</a></li>
-                        <li><a runat="server" href="~/Calculator">Calculator</a></li>
-                        <li><a runat="server" href="~/Contact">Contact</a></li>
+                        <li><a runat="server" href="~/" style="margin-top: 7px;">Converter</a></li>
+                        <li><a runat="server" href="~/Calculator" style="margin-top: 7px;">Calculator</a></li>
+                        <li><a runat="server" href="~/Contact" style="margin-top: 7px;">Contact</a></li>
                     </ul>
                 </div>
             </div>
