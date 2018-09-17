@@ -20,7 +20,7 @@ Character key provided with corresponding decimal values
 Mobile responsivity
 
 # Installation
-Clone, build run
+Clone, build, and run
 
 # Contribute
 My next steps will be:
