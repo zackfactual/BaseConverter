@@ -146,6 +146,8 @@
     <Content Include="Content\Images\radishx_32.png" />
     <Content Include="Content\Images\radishx_512.png" />
     <Content Include="Content\Images\radishx_64.png" />
+    <Content Include="Content\Images\rpcalculation.png" />
+    <Content Include="Content\Images\rpconversion.png" />
     <Content Include="Content\RadishPoint.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
