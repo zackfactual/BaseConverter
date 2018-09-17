@@ -32,7 +32,8 @@ My next steps will be:
 Feel free to help with any of that if you're interested!
 
 # Credits
-Elena Ondich and Michael Strunk for code and design feedback 
+Elena Ondich and Michael Strunk for code and design feedback
+
 Alex Zubrovich for logo design
 
 # License
