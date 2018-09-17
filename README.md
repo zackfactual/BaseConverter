@@ -2,7 +2,7 @@
 A cross-numeral system converter and simple calculator written in C#
 
 # Motivation
-No other converter out there had the number of bases, the calculator functionality, AND the mobile responsivity that I wanted
+No other converter out there had the number of bases, the calculator functionality, and the mobile responsivity I wanted
 
 # Screenshots
 A conversion:
